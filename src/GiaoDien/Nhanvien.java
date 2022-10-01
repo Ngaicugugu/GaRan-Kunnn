@@ -125,18 +125,22 @@ public class Nhanvien extends javax.swing.JFrame {
         jButton1.setBackground(new java.awt.Color(255, 153, 0));
         jButton1.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jButton1.setText("Nhân viên");
+        jButton1.setBorderPainted(false);
         jButton1.setMargin(new java.awt.Insets(7, 14, 7, 14));
 
         jButton2.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jButton2.setText("Khách hàng");
+        jButton2.setBorderPainted(false);
         jButton2.setMargin(new java.awt.Insets(7, 14, 7, 14));
 
         jButton3.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jButton3.setText("Khuyến mãi");
+        jButton3.setBorderPainted(false);
         jButton3.setMargin(new java.awt.Insets(7, 14, 7, 14));
 
         jButton4.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jButton4.setText("Sản phẩm");
+        jButton4.setBorderPainted(false);
         jButton4.setMargin(new java.awt.Insets(7, 14, 7, 14));
         jButton4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -146,14 +150,17 @@ public class Nhanvien extends javax.swing.JFrame {
 
         jButton5.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jButton5.setText("Kho hàng");
+        jButton5.setBorderPainted(false);
         jButton5.setMargin(new java.awt.Insets(7, 14, 7, 14));
 
         jButton10.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jButton10.setText("Hổ trợ KH");
+        jButton10.setBorderPainted(false);
         jButton10.setMargin(new java.awt.Insets(7, 14, 7, 14));
 
         jButton11.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jButton11.setText("Thống kê");
+        jButton11.setBorderPainted(false);
         jButton11.setMargin(new java.awt.Insets(7, 14, 7, 14));
         jButton11.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -163,6 +170,7 @@ public class Nhanvien extends javax.swing.JFrame {
 
         jButton12.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jButton12.setText("Đăng xuất");
+        jButton12.setBorderPainted(false);
         jButton12.setMargin(new java.awt.Insets(7, 14, 7, 14));
 
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
