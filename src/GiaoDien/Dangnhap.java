@@ -11,7 +11,7 @@ package GiaoDien;
 public class Dangnhap extends javax.swing.JFrame {
 
     /**
-     * Creates new form Dangnhap
+     * Creates new form Dangnhapaaaa
      */
     public Dangnhap() {
         initComponents();
