@@ -3,21 +3,18 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/akbro/Desktop/GaRan-Kunnn/src/GiaoDien/GaRanKunnn.java</file>
-            <file>file:/C:/Users/akbro/Desktop/GaRan-Kunnn/src/GiaoDien/QLKhoHang.java</file>
-            <file>file:/C:/Users/akbro/Desktop/GaRan-Kunnn/nbproject/build-impl.xml</file>
-            <file>file:/C:/Users/akbro/Desktop/GaRan-Kunnn/src/GiaoDien/QLSanPham.java</file>
-            <file>file:/C:/Users/akbro/Desktop/GaRan-Kunnn/src/GiaoDien/Giohang.java</file>
-            <file>file:/C:/Users/akbro/Desktop/GaRan-Kunnn/src/GiaoDien/QLKhachHang.java</file>
-            <file>file:/C:/Users/akbro/Desktop/GaRan-Kunnn/src/GiaoDien/Dangnhap.java</file>
-            <file>file:/C:/Users/akbro/Desktop/GaRan-Kunnn/src/GiaoDien/FormDangNhap.java</file>
-            <file>file:/C:/Users/akbro/Desktop/GaRan-Kunnn/src/GiaoDien/Nhanvien.java</file>
-            <file>file:/C:/Users/akbro/Desktop/GaRan-Kunnn/src/GiaoDien/NVGioHang.java</file>
-            <file>file:/C:/Users/akbro/Desktop/GaRan-Kunnn/src/GiaoDien/NVSanPham.java</file>
-            <file>file:/C:/Users/akbro/Desktop/GaRan-Kunnn/src/GiaoDien/TaiKhoan.java</file>
-            <file>file:/C:/Users/akbro/Desktop/GaRan-Kunnn/src/GiaoDien/Khachhang.java</file>
-            <file>file:/C:/Users/akbro/Desktop/GaRan-Kunnn/src/GiaoDien/Sanpham.java</file>
-            <file>file:/C:/Users/akbro/Desktop/GaRan-Kunnn/src/GiaoDien/QLGioHang.java</file>
+            <file>file:/D:/Github/GaRan-Kunnn/src/DAO/test.java</file>
+            <file>file:/D:/Github/GaRan-Kunnn/src/GiaoDien/NVSanPham.java</file>
+            <file>file:/D:/Github/GaRan-Kunnn/src/GiaoDien/QLKhoHang.java</file>
+            <file>file:/D:/Github/GaRan-Kunnn/src/GiaoDien/NVKhachHang.java</file>
+            <file>file:/D:/Github/GaRan-Kunnn/src/GiaoDien/QLThongke.java</file>
+            <file>file:/D:/Github/GaRan-Kunnn/src/GiaoDien/QLSanPham.java</file>
+            <file>file:/D:/Github/GaRan-Kunnn/src/GiaoDien/DSNhanVien.java</file>
+            <file>file:/D:/Github/GaRan-Kunnn/src/GiaoDien/NVKhuyenmai.java</file>
+            <file>file:/D:/Github/GaRan-Kunnn/src/GiaoDien/QLKhuyenmai.java</file>
+            <file>file:/D:/Github/GaRan-Kunnn/src/GiaoDien/NVGioHang.java</file>
+            <file>file:/D:/Github/GaRan-Kunnn/src/GiaoDien/NVHoTroKH.java</file>
+            <file>file:/D:/Github/GaRan-Kunnn/src/GiaoDien/FormDangNhap.java</file>
         </group>
     </open-files>
 </project-private>
