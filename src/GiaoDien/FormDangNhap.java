@@ -4,17 +4,22 @@
  */
 package GiaoDien;
 
+import DAO.UsersDAO;
+import Model.users;
+import Utils.Auth;
+import Utils.MsgBox;
+
 /**
  *
  * @author akbro
  */
 public class FormDangNhap extends javax.swing.JFrame {
 
-    /**
-     * Creates new form FormDangNhap
-     */
+    UsersDAO dao = new UsersDAO();
+
     public FormDangNhap() {
         initComponents();
+        init();
     }
 
     /**
@@ -30,14 +35,12 @@ public class FormDangNhap extends javax.swing.JFrame {
         jPanel2 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
-        jScrollPane2 = new javax.swing.JScrollPane();
-        jTextPane2 = new javax.swing.JTextPane();
         jLabel3 = new javax.swing.JLabel();
-        jScrollPane1 = new javax.swing.JScrollPane();
-        jTextPane1 = new javax.swing.JTextPane();
         jButton1 = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
         jLabel5 = new javax.swing.JLabel();
+        txttaikhoan = new javax.swing.JTextField();
+        txtpass = new javax.swing.JPasswordField();
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -64,18 +67,10 @@ public class FormDangNhap extends javax.swing.JFrame {
         jLabel2.setText("Tài khoản:");
         jPanel2.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(204, 71, -1, -1));
 
-        jScrollPane2.setViewportView(jTextPane2);
-
-        jPanel2.add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 79, 235, -1));
-
         jLabel3.setFont(new java.awt.Font("Dialog", 1, 12)); // NOI18N
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Hinh/key.png"))); // NOI18N
         jLabel3.setText("Mật khẩu:");
         jPanel2.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(207, 121, -1, -1));
-
-        jScrollPane1.setViewportView(jTextPane1);
-
-        jPanel2.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 129, 235, -1));
 
         jButton1.setFont(new java.awt.Font("Dialog", 1, 12)); // NOI18N
         jButton1.setText("QUên mật khẩu?");
@@ -88,11 +83,18 @@ public class FormDangNhap extends javax.swing.JFrame {
 
         jButton2.setFont(new java.awt.Font("Dialog", 1, 12)); // NOI18N
         jButton2.setText("Đăng nhập");
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
         jPanel2.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 179, -1, -1));
 
         jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Hinh/Chicken-LOGO1 2.png"))); // NOI18N
         jLabel5.setText("jLabel5");
         jPanel2.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(12, 53, 174, 184));
+        jPanel2.add(txttaikhoan, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 80, 220, -1));
+        jPanel2.add(txtpass, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 130, 220, -1));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -111,6 +113,10 @@ public class FormDangNhap extends javax.swing.JFrame {
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        Login();
+    }//GEN-LAST:event_jButton2ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -156,9 +162,27 @@ public class FormDangNhap extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel5;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
-    private javax.swing.JScrollPane jScrollPane1;
-    private javax.swing.JScrollPane jScrollPane2;
-    private javax.swing.JTextPane jTextPane1;
-    private javax.swing.JTextPane jTextPane2;
+    private javax.swing.JPasswordField txtpass;
+    private javax.swing.JTextField txttaikhoan;
     // End of variables declaration//GEN-END:variables
+
+    private void Login() {
+        String taikhoan = txttaikhoan.getText();
+        String matKhau = new String(txtpass.getPassword());
+        users users = dao.findById(taikhoan);
+        if (users == null) {
+            MsgBox.alert(this, "Sai tên đăng nhập");
+
+        } else if (!matKhau.equals(users.getMatkhau())) {
+            MsgBox.alert(this, "Sai mật khẩu");
+        } else {
+            Auth.user = users;
+            this.dispose();
+        }
+    }
+
+    private void init() {
+        this.setLocationRelativeTo(null);
+
+    }
 }
