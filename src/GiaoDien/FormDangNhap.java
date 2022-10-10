@@ -4,18 +4,19 @@
  */
 package GiaoDien;
 
-
 import DAO.usersDAO;
 import Utils.Auth;
 import Utils.MsgBox;
+import Utils.jdbchelper;
 import entity.users;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 
 /**
  *
  * @author akbro
  */
 public class FormDangNhap extends javax.swing.JFrame {
-
 
     public FormDangNhap() {
         initComponents();
@@ -165,20 +166,24 @@ public class FormDangNhap extends javax.swing.JFrame {
     private javax.swing.JPasswordField txtpass;
     private javax.swing.JTextField txttaikhoan;
     // End of variables declaration//GEN-END:variables
-    
-    usersDAO dao=new usersDAO();
+
+    usersDAO dao = new usersDAO();
+
     private void Login() {
-        String manv=txttaikhoan.getText();
-        String matkhau=new String(txtpass.getPassword());
-        users us=dao.selectByid(manv);
-        if(us==null){
-            MsgBox.alert(this,"Sai tên đăng nhập!");
-        }else if(!matkhau.equals(us.getMatkhau())){
-            MsgBox.alert(this,"Sai mật khẩu!");
-        }else{
-            Auth.user=us;
+        String manv = txttaikhoan.getText();
+        String matkhau = new String(txtpass.getPassword());
+        users us = dao.selectByid(manv);
+        if (us == null) {
+            MsgBox.alert(this, "Sai tên đăng nhập!");
+        } else if (!matkhau.equals(us.getMatkhau())) {
+            MsgBox.alert(this, "Sai mật khẩu!");
+        } else {
+            Auth.user = us;
             this.dispose();
+            FormQuanLi frmql = new FormQuanLi();
+            frmql.setVisible(true);
         }
+
     }
 
     private void init() {
