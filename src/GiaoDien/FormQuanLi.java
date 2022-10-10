@@ -220,26 +220,26 @@ public class FormQuanLi extends javax.swing.JFrame {
         jLabel71 = new javax.swing.JLabel();
         jLabel72 = new javax.swing.JLabel();
         jScrollPane34 = new javax.swing.JScrollPane();
-        jTextPane26 = new javax.swing.JTextPane();
+        txtID = new javax.swing.JTextPane();
         jScrollPane36 = new javax.swing.JScrollPane();
-        jTextPane28 = new javax.swing.JTextPane();
+        txthotenkh = new javax.swing.JTextPane();
         jScrollPane37 = new javax.swing.JScrollPane();
-        jTextPane29 = new javax.swing.JTextPane();
+        txtsdt = new javax.swing.JTextPane();
         jScrollPane38 = new javax.swing.JScrollPane();
-        jTextPane30 = new javax.swing.JTextPane();
+        txtdiachi = new javax.swing.JTextPane();
         jScrollPane39 = new javax.swing.JScrollPane();
-        jTextPane31 = new javax.swing.JTextPane();
-        jRadioButton6 = new javax.swing.JRadioButton();
-        jRadioButton7 = new javax.swing.JRadioButton();
+        txtemail = new javax.swing.JTextPane();
+        rdonam = new javax.swing.JRadioButton();
+        rdonu = new javax.swing.JRadioButton();
         jScrollPane40 = new javax.swing.JScrollPane();
-        jTextPane32 = new javax.swing.JTextPane();
+        txtmota = new javax.swing.JTextPane();
         jPanel19 = new javax.swing.JPanel();
         jButton6 = new javax.swing.JButton();
         jButton8 = new javax.swing.JButton();
         jButton21 = new javax.swing.JButton();
         jLabel65 = new javax.swing.JLabel();
         jScrollPane41 = new javax.swing.JScrollPane();
-        jTable5 = new javax.swing.JTable();
+        bangkh = new javax.swing.JTable();
         lblthongke = new javax.swing.JPanel();
         jPanel10 = new javax.swing.JPanel();
         jLabel26 = new javax.swing.JLabel();
@@ -1606,31 +1606,31 @@ public class FormQuanLi extends javax.swing.JFrame {
 
         jLabel72.setText("Mô tả:");
 
-        jScrollPane34.setViewportView(jTextPane26);
+        jScrollPane34.setViewportView(txtID);
 
-        jScrollPane36.setViewportView(jTextPane28);
+        jScrollPane36.setViewportView(txthotenkh);
 
-        jScrollPane37.setViewportView(jTextPane29);
+        jScrollPane37.setViewportView(txtsdt);
 
-        jScrollPane38.setViewportView(jTextPane30);
+        jScrollPane38.setViewportView(txtdiachi);
 
-        jScrollPane39.setViewportView(jTextPane31);
+        jScrollPane39.setViewportView(txtemail);
 
-        jRadioButton6.setText("Nam");
-        jRadioButton6.addActionListener(new java.awt.event.ActionListener() {
+        rdonam.setText("Nam");
+        rdonam.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jRadioButton6ActionPerformed(evt);
+                rdonamActionPerformed(evt);
             }
         });
 
-        jRadioButton7.setText("Nữ");
-        jRadioButton7.addActionListener(new java.awt.event.ActionListener() {
+        rdonu.setText("Nữ");
+        rdonu.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jRadioButton7ActionPerformed(evt);
+                rdonuActionPerformed(evt);
             }
         });
 
-        jScrollPane40.setViewportView(jTextPane32);
+        jScrollPane40.setViewportView(txtmota);
 
         jButton6.setText("Thêm");
         jButton6.addActionListener(new java.awt.event.ActionListener() {
@@ -1698,9 +1698,9 @@ public class FormQuanLi extends javax.swing.JFrame {
                 .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jScrollPane39, javax.swing.GroupLayout.PREFERRED_SIZE, 286, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(jPanel6Layout.createSequentialGroup()
-                        .addComponent(jRadioButton6)
+                        .addComponent(rdonam)
                         .addGap(54, 54, 54)
-                        .addComponent(jRadioButton7))
+                        .addComponent(rdonu))
                     .addComponent(jScrollPane40, javax.swing.GroupLayout.DEFAULT_SIZE, 348, Short.MAX_VALUE))
                 .addGap(170, 170, 170)
                 .addComponent(jPanel19, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -1721,8 +1721,8 @@ public class FormQuanLi extends javax.swing.JFrame {
                     .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                         .addComponent(jLabel67)
                         .addComponent(jLabel71)
-                        .addComponent(jRadioButton6)
-                        .addComponent(jRadioButton7))
+                        .addComponent(rdonam)
+                        .addComponent(rdonu))
                     .addComponent(jScrollPane36, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(26, 26, 26)
                 .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1746,7 +1746,7 @@ public class FormQuanLi extends javax.swing.JFrame {
 
         jLabel65.setText("Thông tin khách hàng");
 
-        jTable5.setModel(new javax.swing.table.DefaultTableModel(
+        bangkh.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null, null, null, null},
                 {null, null, null, null, null, null, null},
@@ -1757,7 +1757,7 @@ public class FormQuanLi extends javax.swing.JFrame {
                 "iD", "Họ tên KH", "SĐT", "Địa chỉ", "Email", "Giới tính", "Mô tả"
             }
         ));
-        jScrollPane41.setViewportView(jTable5);
+        jScrollPane41.setViewportView(bangkh);
 
         javax.swing.GroupLayout lblkhachhangLayout = new javax.swing.GroupLayout(lblkhachhang);
         lblkhachhang.setLayout(lblkhachhangLayout);
@@ -2163,13 +2163,13 @@ public class FormQuanLi extends javax.swing.JFrame {
         lblmacdinh.revalidate();
     }//GEN-LAST:event_btnnhanvienActionPerformed
 
-    private void jRadioButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton6ActionPerformed
+    private void rdonamActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rdonamActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jRadioButton6ActionPerformed
+    }//GEN-LAST:event_rdonamActionPerformed
 
-    private void jRadioButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton7ActionPerformed
+    private void rdonuActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rdonuActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jRadioButton7ActionPerformed
+    }//GEN-LAST:event_rdonuActionPerformed
 
     private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
         // TODO add your handling code here:
@@ -2233,6 +2233,7 @@ public class FormQuanLi extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JTable bangkh;
     private javax.swing.JButton btnbanhang;
     private javax.swing.JButton btndangxuat;
     private javax.swing.JButton btnkhachhang;
@@ -2375,8 +2376,6 @@ public class FormQuanLi extends javax.swing.JFrame {
     private javax.swing.JRadioButton jRadioButton3;
     private javax.swing.JRadioButton jRadioButton4;
     private javax.swing.JRadioButton jRadioButton5;
-    private javax.swing.JRadioButton jRadioButton6;
-    private javax.swing.JRadioButton jRadioButton7;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane10;
     private javax.swing.JScrollPane jScrollPane11;
@@ -2425,7 +2424,6 @@ public class FormQuanLi extends javax.swing.JFrame {
     private javax.swing.JTable jTable11;
     private javax.swing.JTable jTable2;
     private javax.swing.JTable jTable3;
-    private javax.swing.JTable jTable5;
     private javax.swing.JTable jTable8;
     private javax.swing.JTable jTable9;
     private javax.swing.JTextPane jTextPane1;
@@ -2446,14 +2444,8 @@ public class FormQuanLi extends javax.swing.JFrame {
     private javax.swing.JTextPane jTextPane23;
     private javax.swing.JTextPane jTextPane24;
     private javax.swing.JTextPane jTextPane25;
-    private javax.swing.JTextPane jTextPane26;
     private javax.swing.JTextPane jTextPane27;
-    private javax.swing.JTextPane jTextPane28;
-    private javax.swing.JTextPane jTextPane29;
     private javax.swing.JTextPane jTextPane3;
-    private javax.swing.JTextPane jTextPane30;
-    private javax.swing.JTextPane jTextPane31;
-    private javax.swing.JTextPane jTextPane32;
     private javax.swing.JTextPane jTextPane4;
     private javax.swing.JTextPane jTextPane5;
     private javax.swing.JTextPane jTextPane6;
@@ -2470,7 +2462,15 @@ public class FormQuanLi extends javax.swing.JFrame {
     private javax.swing.JPanel lblnhanvien;
     private javax.swing.JPanel lblsanpham;
     private javax.swing.JPanel lblthongke;
+    private javax.swing.JRadioButton rdonam;
+    private javax.swing.JRadioButton rdonu;
     private javax.swing.JTable tblThongke;
+    private javax.swing.JTextPane txtID;
+    private javax.swing.JTextPane txtdiachi;
+    private javax.swing.JTextPane txtemail;
+    private javax.swing.JTextPane txthotenkh;
+    private javax.swing.JTextPane txtmota;
+    private javax.swing.JTextPane txtsdt;
     // End of variables declaration//GEN-END:variables
 
     ThongKeDAO dao = new ThongKeDAO();
