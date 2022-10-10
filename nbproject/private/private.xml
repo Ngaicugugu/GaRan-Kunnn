@@ -2,6 +2,14 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+<<<<<<< HEAD
         <group/>
+=======
+        <group>
+            <file>file:/D:/SOF102/GaRan-Kunnn/src/Model/thongke.java</file>
+            <file>file:/D:/SOF102/GaRan-Kunnn/src/DAO/ThongKeDAO.java</file>
+            <file>file:/D:/SOF102/GaRan-Kunnn/src/GiaoDien/FormQuanLi.java</file>
+        </group>
+>>>>>>> 2ae6f03647a5ae15632eda2e21c9559c0dc757fc
     </open-files>
 </project-private>
