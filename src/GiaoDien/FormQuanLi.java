@@ -7,6 +7,8 @@ package GiaoDien;
 import DAO.ThongKeDAO;
 import java.util.List;
 import javax.swing.table.DefaultTableModel;
+import java.sql.ResultSet;
+
 
 /**
  *
@@ -2173,6 +2175,7 @@ public class FormQuanLi extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton6ActionPerformed
 
+
     private void btnkhachhangActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnkhachhangActionPerformed
         lblmacdinh.removeAll();
         lblmacdinh.add(lblkhachhang);
@@ -2181,9 +2184,13 @@ public class FormQuanLi extends javax.swing.JFrame {
 
 
     }//GEN-LAST:event_btnkhachhangActionPerformed
+    private void formWindowOpened(java.awt.event.WindowEvent evt) {
+        fillThongKe();
+        fillDoanhthu();
+    }
 
     private void btnthongkeMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnthongkeMouseClicked
-        fillThongKe();
+
     }//GEN-LAST:event_btnthongkeMouseClicked
 
     private void cboNamActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cboNamActionPerformed
@@ -2475,6 +2482,16 @@ public class FormQuanLi extends javax.swing.JFrame {
         List<Object[]> list = dao.getHangHoa();
         for (Object[] row : list) {
             model.addRow(row);
+        }
+    }
+
+    void fillDoanhthu() {
+        try {
+            ResultSet rs = null;
+            String sql = "select sum(doanhthu) as 'tongdoanhthu' from thongke";
+            lblDoanhthu.setText(""+rs.getFloat("tongdoanhthu"));
+        } catch (Exception e) {
+            e.printStackTrace();
         }
     }
 
