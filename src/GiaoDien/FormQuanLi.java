@@ -4,6 +4,10 @@
  */
 package GiaoDien;
 
+import DAO.ThongKeDAO;
+import java.util.List;
+import javax.swing.table.DefaultTableModel;
+
 /**
  *
  * @author akbro
@@ -256,14 +260,14 @@ public class FormQuanLi extends javax.swing.JFrame {
         jScrollPane9 = new javax.swing.JScrollPane();
         jTextPane6 = new javax.swing.JTextPane();
         jPanel17 = new javax.swing.JPanel();
-        jComboBox4 = new javax.swing.JComboBox<>();
+        cboDanhmuc = new javax.swing.JComboBox<>();
         jPanel18 = new javax.swing.JPanel();
-        jComboBox3 = new javax.swing.JComboBox<>();
+        cboNam = new javax.swing.JComboBox<>();
         jLabel21 = new javax.swing.JLabel();
         jLabel22 = new javax.swing.JLabel();
         jLabel23 = new javax.swing.JLabel();
         jScrollPane10 = new javax.swing.JScrollPane();
-        jTable4 = new javax.swing.JTable();
+        tblThongke = new javax.swing.JTable();
 
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
         jPanel3.setLayout(jPanel3Layout);
@@ -661,7 +665,7 @@ public class FormQuanLi extends javax.swing.JFrame {
                     .addGroup(lblbanhangLayout.createSequentialGroup()
                         .addGap(13, 13, 13)
                         .addComponent(jPanel5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(46, 46, 46)
+                        .addGap(49, 49, 49)
                         .addComponent(jLabel3)
                         .addGap(30, 30, 30)
                         .addComponent(jPanel7, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -712,19 +716,15 @@ public class FormQuanLi extends javax.swing.JFrame {
         jPanel27.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
         jButton10.setBackground(new java.awt.Color(255, 255, 0));
-        jButton10.setForeground(new java.awt.Color(0, 0, 0));
         jButton10.setText("Thêm");
 
         jButton11.setBackground(new java.awt.Color(255, 255, 0));
-        jButton11.setForeground(new java.awt.Color(0, 0, 0));
         jButton11.setText("Sửa");
 
         jButton12.setBackground(new java.awt.Color(255, 255, 0));
-        jButton12.setForeground(new java.awt.Color(0, 0, 0));
         jButton12.setText("Làm mới");
 
         jButton13.setBackground(new java.awt.Color(255, 255, 0));
-        jButton13.setForeground(new java.awt.Color(0, 0, 0));
         jButton13.setText("Chi tiết sản phẩm");
 
         javax.swing.GroupLayout jPanel27Layout = new javax.swing.GroupLayout(jPanel27);
@@ -845,7 +845,7 @@ public class FormQuanLi extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jPanel25, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(51, 51, 51)
-                .addComponent(jScrollPane19, javax.swing.GroupLayout.DEFAULT_SIZE, 592, Short.MAX_VALUE)
+                .addComponent(jScrollPane19, javax.swing.GroupLayout.DEFAULT_SIZE, 606, Short.MAX_VALUE)
                 .addContainerGap())
         );
 
@@ -1057,7 +1057,7 @@ public class FormQuanLi extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jPanel28, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jScrollPane26, javax.swing.GroupLayout.DEFAULT_SIZE, 437, Short.MAX_VALUE)
+                .addComponent(jScrollPane26, javax.swing.GroupLayout.DEFAULT_SIZE, 440, Short.MAX_VALUE)
                 .addContainerGap())
         );
 
@@ -1295,7 +1295,7 @@ public class FormQuanLi extends javax.swing.JFrame {
                         .addComponent(jButton19)
                         .addGap(40, 40, 40)
                         .addComponent(jButton20)))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 86, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 98, Short.MAX_VALUE)
                 .addComponent(jLabel61)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jScrollPane32, javax.swing.GroupLayout.PREFERRED_SIZE, 375, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -1417,9 +1417,8 @@ public class FormQuanLi extends javax.swing.JFrame {
             .addGroup(jPanel4Layout.createSequentialGroup()
                 .addGap(50, 50, 50)
                 .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                        .addComponent(jLabel7)
-                        .addComponent(jLabel30))
+                    .addComponent(jLabel30)
+                    .addComponent(jLabel7)
                     .addComponent(jScrollPane5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jScrollPane6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jButton4))
@@ -1575,7 +1574,7 @@ public class FormQuanLi extends javax.swing.JFrame {
                 .addComponent(jLabel1)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jPanel4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 48, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 65, Short.MAX_VALUE)
                 .addGroup(lblnhanvienLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jPanel9, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jPanel15, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -1774,7 +1773,7 @@ public class FormQuanLi extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jPanel6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(39, 39, 39)
-                .addComponent(jScrollPane41, javax.swing.GroupLayout.DEFAULT_SIZE, 597, Short.MAX_VALUE))
+                .addComponent(jScrollPane41, javax.swing.GroupLayout.DEFAULT_SIZE, 608, Short.MAX_VALUE))
         );
 
         lblmacdinh.add(lblkhachhang, "card7");
@@ -1942,7 +1941,7 @@ public class FormQuanLi extends javax.swing.JFrame {
         jPanel17.setBackground(new java.awt.Color(204, 204, 204));
         jPanel17.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
-        jComboBox4.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "", "Gà rán", "Nước ngọt", "Hamburger", "Khoai tây chiên" }));
+        cboDanhmuc.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "", "Gà rán", "Nước ngọt", "Hamburger", "Khoai tây chiên" }));
 
         javax.swing.GroupLayout jPanel17Layout = new javax.swing.GroupLayout(jPanel17);
         jPanel17.setLayout(jPanel17Layout);
@@ -1950,21 +1949,21 @@ public class FormQuanLi extends javax.swing.JFrame {
             jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel17Layout.createSequentialGroup()
                 .addContainerGap(30, Short.MAX_VALUE)
-                .addComponent(jComboBox4, javax.swing.GroupLayout.PREFERRED_SIZE, 261, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(cboDanhmuc, javax.swing.GroupLayout.PREFERRED_SIZE, 261, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(23, 23, 23))
         );
         jPanel17Layout.setVerticalGroup(
             jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel17Layout.createSequentialGroup()
                 .addGap(26, 26, 26)
-                .addComponent(jComboBox4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(cboDanhmuc, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(29, Short.MAX_VALUE))
         );
 
         jPanel18.setBackground(new java.awt.Color(204, 204, 204));
         jPanel18.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
-        jComboBox3.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "", "2021", "2020", "2022" }));
+        cboNam.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "", "2021", "2020", "2022" }));
 
         javax.swing.GroupLayout jPanel18Layout = new javax.swing.GroupLayout(jPanel18);
         jPanel18.setLayout(jPanel18Layout);
@@ -1972,14 +1971,14 @@ public class FormQuanLi extends javax.swing.JFrame {
             jPanel18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel18Layout.createSequentialGroup()
                 .addGap(29, 29, 29)
-                .addComponent(jComboBox3, javax.swing.GroupLayout.PREFERRED_SIZE, 261, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(cboNam, javax.swing.GroupLayout.PREFERRED_SIZE, 261, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(24, Short.MAX_VALUE))
         );
         jPanel18Layout.setVerticalGroup(
             jPanel18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel18Layout.createSequentialGroup()
                 .addGap(26, 26, 26)
-                .addComponent(jComboBox3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(cboNam, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(28, Short.MAX_VALUE))
         );
 
@@ -1989,7 +1988,7 @@ public class FormQuanLi extends javax.swing.JFrame {
 
         jLabel23.setText("Tìm kiếm:");
 
-        jTable4.setModel(new javax.swing.table.DefaultTableModel(
+        tblThongke.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null},
                 {null, null, null, null},
@@ -2000,7 +1999,7 @@ public class FormQuanLi extends javax.swing.JFrame {
                 "Sản phẩm", "Số lượng", "Giá", "Doanh thu"
             }
         ));
-        jScrollPane10.setViewportView(jTable4);
+        jScrollPane10.setViewportView(tblThongke);
 
         javax.swing.GroupLayout jPanel14Layout = new javax.swing.GroupLayout(jPanel14);
         jPanel14.setLayout(jPanel14Layout);
@@ -2039,7 +2038,7 @@ public class FormQuanLi extends javax.swing.JFrame {
                     .addComponent(jPanel16, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jPanel17, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jPanel18, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 75, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 87, Short.MAX_VALUE)
                 .addComponent(jScrollPane10, javax.swing.GroupLayout.PREFERRED_SIZE, 366, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
@@ -2123,6 +2122,7 @@ public class FormQuanLi extends javax.swing.JFrame {
         lblmacdinh.add(lblthongke);
         lblmacdinh.repaint();
         lblmacdinh.revalidate();
+
     }//GEN-LAST:event_btnthongkeActionPerformed
 
     private void jRadioButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton3ActionPerformed
@@ -2167,6 +2167,8 @@ public class FormQuanLi extends javax.swing.JFrame {
         lblmacdinh.add(lblkhachhang);
         lblmacdinh.repaint();
         lblmacdinh.revalidate();
+
+
     }//GEN-LAST:event_btnkhachhangActionPerformed
 
     /**
@@ -2212,6 +2214,8 @@ public class FormQuanLi extends javax.swing.JFrame {
     private javax.swing.JButton btnnhanvien;
     private javax.swing.JButton btnsanpham;
     private javax.swing.JButton btnthongke;
+    private javax.swing.JComboBox<String> cboDanhmuc;
+    private javax.swing.JComboBox<String> cboNam;
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton10;
     private javax.swing.JButton jButton11;
@@ -2236,8 +2240,6 @@ public class FormQuanLi extends javax.swing.JFrame {
     private javax.swing.JComboBox<String> jComboBox1;
     private javax.swing.JComboBox<String> jComboBox10;
     private javax.swing.JComboBox<String> jComboBox2;
-    private javax.swing.JComboBox<String> jComboBox3;
-    private javax.swing.JComboBox<String> jComboBox4;
     private javax.swing.JComboBox<String> jComboBox5;
     private javax.swing.JComboBox<String> jComboBox6;
     private javax.swing.JComboBox<String> jComboBox7;
@@ -2400,7 +2402,6 @@ public class FormQuanLi extends javax.swing.JFrame {
     private javax.swing.JTable jTable11;
     private javax.swing.JTable jTable2;
     private javax.swing.JTable jTable3;
-    private javax.swing.JTable jTable4;
     private javax.swing.JTable jTable5;
     private javax.swing.JTable jTable8;
     private javax.swing.JTable jTable9;
@@ -2443,5 +2444,21 @@ public class FormQuanLi extends javax.swing.JFrame {
     private javax.swing.JPanel lblnhanvien;
     private javax.swing.JPanel lblsanpham;
     private javax.swing.JPanel lblthongke;
+    private javax.swing.JTable tblThongke;
     // End of variables declaration//GEN-END:variables
+    ThongKeDAO dao = new ThongKeDAO();
+    
+    void fillTableHangHoa() {
+        DefaultTableModel model = (DefaultTableModel) tblThongke.getModel();
+        model.setRowCount(0);
+        int nam = Integer.parseInt(cboNam.getSelectedItem().toString());
+        List<Object[]> list = dao.getHanghoa(nam);
+        for(Object[] row : list){
+            model.addRow(row);
+        }
+    }
+    
+    void findThongke(){
+        
+    }
 }
