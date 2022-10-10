@@ -4,7 +4,7 @@
  */
 package GiaoDien;
 
-import DAO.ThongKeDAO;
+
 import java.util.List;
 import javax.swing.table.DefaultTableModel;
 
@@ -2447,24 +2447,15 @@ public class FormQuanLi extends javax.swing.JFrame {
     private javax.swing.JPanel lblthongke;
     private javax.swing.JTable tblThongke;
     // End of variables declaration//GEN-END:variables
-    ThongKeDAO dao = new ThongKeDAO();
-
-    void fillTableHangHoa() {
-        DefaultTableModel model = (DefaultTableModel) tblThongke.getModel();
-        model.setRowCount(0);
-        int nam = Integer.parseInt(cboNam.getSelectedItem().toString());
-        List<Object[]> list = dao.getHanghoa(nam);
-        for (Object[] row : list) {
-            model.addRow(row);
-        }
-    }
+   
+    
 
     void findThongke() {
 
     }
 
     private void init() {
-        this.setSize(1000, 600);
+        this.setSize(1920, 1080);
         this.setLocationRelativeTo(null);
     }
 }

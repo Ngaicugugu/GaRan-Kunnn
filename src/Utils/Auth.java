@@ -4,14 +4,15 @@
  */
 package Utils;
 
-import entity.nhanvien;
+import entity.users;
+
 
 /**
  *
  * @author Thinkpad T490
  */
 public class Auth {
-    public static nhanvien user = null;
+    public static users user = null;
     public static void clear(){
         Auth.user = null;
     }    
@@ -19,6 +20,6 @@ public class Auth {
         return Auth.user != null;
     }
     public static boolean isManager(){
-        return Auth.isLogin()&& user.isVaiTro();
+        return Auth.isLogin()&& user.isVaitro();
     }
 }

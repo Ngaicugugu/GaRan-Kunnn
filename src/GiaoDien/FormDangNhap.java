@@ -4,10 +4,11 @@
  */
 package GiaoDien;
 
-import DAO.UsersDAO;
-import Model.users;
+
+import DAO.usersDAO;
 import Utils.Auth;
 import Utils.MsgBox;
+import entity.users;
 
 /**
  *
@@ -15,7 +16,6 @@ import Utils.MsgBox;
  */
 public class FormDangNhap extends javax.swing.JFrame {
 
-    UsersDAO dao = new UsersDAO();
 
     public FormDangNhap() {
         initComponents();
@@ -165,18 +165,18 @@ public class FormDangNhap extends javax.swing.JFrame {
     private javax.swing.JPasswordField txtpass;
     private javax.swing.JTextField txttaikhoan;
     // End of variables declaration//GEN-END:variables
-
+    
+    usersDAO dao=new usersDAO();
     private void Login() {
-        String taikhoan = txttaikhoan.getText();
-        String matKhau = new String(txtpass.getPassword());
-        users users = dao.findById(taikhoan);
-        if (users == null) {
-            MsgBox.alert(this, "Sai tên đăng nhập");
-
-        } else if (!matKhau.equals(users.getMatkhau())) {
-            MsgBox.alert(this, "Sai mật khẩu");
-        } else {
-            Auth.user = users;
+        String manv=txttaikhoan.getText();
+        String matkhau=new String(txtpass.getPassword());
+        users us=dao.selectByid(manv);
+        if(us==null){
+            MsgBox.alert(this,"Sai tên đăng nhập!");
+        }else if(!matkhau.equals(us.getMatkhau())){
+            MsgBox.alert(this,"Sai mật khẩu!");
+        }else{
+            Auth.user=us;
             this.dispose();
         }
     }

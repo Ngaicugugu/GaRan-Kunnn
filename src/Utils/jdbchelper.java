@@ -16,7 +16,7 @@ import java.sql.SQLException;
  */
 public class jdbchelper {
     static String driver = "com.microsoft.sqlserver.jdbc.SQLServerDataSource";
-    static String dburl = "jdbc:sqlserver://localhost:1433;databaseName=PolyEduSys;"
+    static String dburl = "jdbc:sqlserver://localhost:1433;databaseName=garan;"
                 + "encrypt=true;trustServercertificate=true;sslProtocol=TLSv1.2";
     static String user="sa";
     static String pass="1510";
