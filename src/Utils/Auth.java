@@ -4,23 +4,21 @@
  */
 package Utils;
 
-import Model.users;
+import entity.nhanvien;
 
-
-
+/**
+ *
+ * @author Thinkpad T490
+ */
 public class Auth {
-    public static users user = null;
-    public static void clear()
-    {
+    public static nhanvien user = null;
+    public static void clear(){
         Auth.user = null;
+    }    
+    public static boolean isLogin(){
+        return Auth.user != null;
     }
-    public static boolean isLogin()
-    {
-        return Auth.user !=null;
-        
-    }
-    public static boolean isManager()
-    {
-        return Auth.isLogin() && user.isVaitro();
+    public static boolean isManager(){
+        return Auth.isLogin()&& user.isVaiTro();
     }
 }

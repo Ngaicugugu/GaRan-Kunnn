@@ -4,32 +4,57 @@
  */
 package Utils;
 
+import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+/**
+ *
+ * @author Thinkpad T490
+ */
 public class XDate {
-    static SimpleDateFormat fomater = new SimpleDateFormat();
-    public static Date todaDate(String date , String pattern)
-    {
+   static final SimpleDateFormat format = new SimpleDateFormat("MM/dd/yyyy");
+    
+    public static Date toDate(String date, String... pattern) {
         try {
-           fomater.applyPattern(pattern);
-           return fomater.parse(date);
-        } catch (Exception ex) {
-            throw new RuntimeException(ex);
+            if(pattern.length > 0) {
+                format.applyPattern(pattern[0]);
+            }
+            if(date == null) {
+                return now();
+            }
+            return format.parse(date);
+        } catch (ParseException e) {
+            throw new RuntimeException();
         }
     }
-    public static String toString(Date date , String pattern)
-    {
-        fomater.applyPattern(pattern);
-        return fomater.format(date);
+    
+    public static String toString(Date date, String... pattern) {
+        try {
+            if(pattern.length > 0) {
+                format.applyPattern(pattern[0]);
+            }
+            if(date == null) {
+                date = now();
+            }
+            return format.format(date);
+        } catch (Exception e) {
+            throw new RuntimeException();
+        }
     }
-    public static Date addDays(Date date , long days)
-    {
-        date.setTime(date.getTime()+days*24*60*60*1000);
+    
+    public static Date addDay(Date date, int day) {
+        date.setTime(date.getTime() + day * 24 * 60 * 60 * 1000);
         return date;
     }
-
+    
+    public static Date add(int days) {
+        Date date = now();
+        date.setTime(date.getTime() + days * 24 * 60 * 60 * 1000);
+        return date;
+    }
+    
     public static Date now() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        return new Date();
     }
 }
