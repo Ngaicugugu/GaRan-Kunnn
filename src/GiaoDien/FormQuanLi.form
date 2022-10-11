@@ -268,7 +268,11 @@
                           <Component id="jPanel7" alignment="0" min="-2" max="-2" attributes="0"/>
                       </Group>
 <<<<<<< HEAD
+<<<<<<< HEAD
                       <EmptySpace pref="187" max="32767" attributes="0"/>
+=======
+                      <EmptySpace pref="234" max="32767" attributes="0"/>
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
 =======
                       <EmptySpace pref="234" max="32767" attributes="0"/>
 >>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
@@ -375,7 +379,11 @@
                   <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
                   <SubComponents>
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <Component class="javax.swing.JTable" name="jTable2">
+=======
+                    <Component class="javax.swing.JTable" name="tblgiohang">
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
 =======
                     <Component class="javax.swing.JTable" name="tblgiohang">
 >>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
@@ -430,7 +438,11 @@
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace max="-2" attributes="0"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
                           <Component id="jScrollPane3" max="32767" attributes="0"/>
+=======
+                          <Component id="jScrollPane3" pref="826" max="32767" attributes="0"/>
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
 =======
                           <Component id="jScrollPane3" pref="826" max="32767" attributes="0"/>
 >>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
@@ -439,6 +451,7 @@
                       <Group type="102" alignment="1" attributes="0">
                           <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
+<<<<<<< HEAD
 <<<<<<< HEAD
                               <Group type="102" attributes="0">
                                   <Component id="jScrollPane4" min="-2" pref="202" max="-2" attributes="0"/>
@@ -454,6 +467,8 @@
                           </Group>
                           <EmptySpace min="-2" pref="79" max="-2" attributes="0"/>
 =======
+=======
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
                               <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
                               <Group type="102" attributes="0">
                                   <Component id="txttimkiem" min="-2" pref="242" max="-2" attributes="0"/>
@@ -467,6 +482,9 @@
                           <EmptySpace max="32767" attributes="0"/>
                           <Component id="jButton3" min="-2" pref="138" max="-2" attributes="0"/>
                           <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+<<<<<<< HEAD
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
+=======
 >>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
                       </Group>
                   </Group>
@@ -475,6 +493,7 @@
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+<<<<<<< HEAD
 <<<<<<< HEAD
                           <Group type="103" groupAlignment="3" attributes="0">
                               <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
@@ -495,6 +514,8 @@
                           <Component id="jScrollPane3" min="-2" pref="359" max="-2" attributes="0"/>
                           <EmptySpace pref="85" max="32767" attributes="0"/>
 =======
+=======
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
                           <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
                           <EmptySpace type="unrelated" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
@@ -510,6 +531,9 @@
 =======
                           <EmptySpace pref="85" max="32767" attributes="0"/>
 >>>>>>> 2bd35f9b9e1dce29758662f81a11d01d205709e0
+<<<<<<< HEAD
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
+=======
 >>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
                       </Group>
                   </Group>
@@ -524,7 +548,11 @@
                   <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
                   <SubComponents>
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <Component class="javax.swing.JTable" name="jTable3">
+=======
+                    <Component class="javax.swing.JTable" name="tblbanhang">
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
 =======
                     <Component class="javax.swing.JTable" name="tblbanhang">
 >>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
@@ -548,6 +576,7 @@
                   </Properties>
                 </Component>
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <Component class="javax.swing.JLabel" name="jLabel6">
                   <Properties>
                     <Property name="text" type="java.lang.String" value="Danh m&#x1ee5;c:"/>
@@ -555,10 +584,13 @@
                 </Component>
 =======
 >>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
+=======
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
                 <Component class="javax.swing.JButton" name="jButton3">
                   <Properties>
                     <Property name="text" type="java.lang.String" value="Th&#xea;m s&#x1ea3;n ph&#x1ea9;m"/>
                   </Properties>
+<<<<<<< HEAD
 <<<<<<< HEAD
                 </Component>
                 <Component class="javax.swing.JComboBox" name="jComboBox1">
@@ -588,6 +620,8 @@
                   </SubComponents>
                 </Container>
 =======
+=======
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
                   <Events>
                     <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton3ActionPerformed"/>
                   </Events>
@@ -602,6 +636,9 @@
                 </Component>
                 <Component class="javax.swing.JTextField" name="txttimkiem">
                 </Component>
+<<<<<<< HEAD
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
+=======
 >>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
               </SubComponents>
             </Container>
@@ -874,13 +911,19 @@
                               <Component id="jPanel25" min="-2" max="-2" attributes="0"/>
                               <EmptySpace min="-2" pref="51" max="-2" attributes="0"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
                               <Component id="jScrollPane19" pref="642" max="32767" attributes="0"/>
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
                               <Component id="jScrollPane19" pref="610" max="32767" attributes="0"/>
 =======
                               <Component id="jScrollPane19" pref="642" max="32767" attributes="0"/>
 >>>>>>> 2bd35f9b9e1dce29758662f81a11d01d205709e0
+<<<<<<< HEAD
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
+=======
 >>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
                               <EmptySpace max="-2" attributes="0"/>
                           </Group>
@@ -1174,13 +1217,19 @@
                               <Component id="jPanel28" min="-2" max="-2" attributes="0"/>
                               <EmptySpace type="unrelated" max="-2" attributes="0"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
                               <Component id="jScrollPane26" pref="476" max="32767" attributes="0"/>
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
                               <Component id="jScrollPane26" pref="453" max="32767" attributes="0"/>
 =======
                               <Component id="jScrollPane26" pref="476" max="32767" attributes="0"/>
 >>>>>>> 2bd35f9b9e1dce29758662f81a11d01d205709e0
+<<<<<<< HEAD
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
+=======
 >>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
                               <EmptySpace max="-2" attributes="0"/>
                           </Group>
@@ -1606,13 +1655,19 @@
                           </Group>
                       </Group>
 <<<<<<< HEAD
+<<<<<<< HEAD
                       <EmptySpace pref="134" max="32767" attributes="0"/>
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
                       <EmptySpace pref="106" max="32767" attributes="0"/>
 =======
                       <EmptySpace pref="134" max="32767" attributes="0"/>
 >>>>>>> 2bd35f9b9e1dce29758662f81a11d01d205709e0
+<<<<<<< HEAD
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
+=======
 >>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
                       <Component id="jLabel61" min="-2" max="-2" attributes="0"/>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
@@ -2006,13 +2061,19 @@
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="jPanel4" min="-2" max="-2" attributes="0"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
                       <EmptySpace pref="101" max="32767" attributes="0"/>
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
                       <EmptySpace pref="66" max="32767" attributes="0"/>
 =======
                       <EmptySpace pref="101" max="32767" attributes="0"/>
 >>>>>>> 2bd35f9b9e1dce29758662f81a11d01d205709e0
+<<<<<<< HEAD
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
+=======
 >>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Component id="jPanel9" alignment="1" min="-2" max="-2" attributes="0"/>
@@ -2061,7 +2122,11 @@
                                           <Component id="jScrollPane11" min="-2" pref="330" max="-2" attributes="0"/>
                                       </Group>
 <<<<<<< HEAD
+<<<<<<< HEAD
                                       <Component id="cbovaitro" alignment="1" min="-2" pref="330" max="-2" attributes="0"/>
+=======
+                                      <Component id="jComboBox5" alignment="1" min="-2" pref="330" max="-2" attributes="0"/>
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
 =======
                                       <Component id="jComboBox5" alignment="1" min="-2" pref="330" max="-2" attributes="0"/>
 >>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
@@ -2069,6 +2134,7 @@
                                   <EmptySpace min="-2" pref="76" max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="0" attributes="0">
                                       <Group type="102" alignment="1" attributes="0">
+<<<<<<< HEAD
 <<<<<<< HEAD
                                           <Component id="btnsua" min="-2" pref="88" max="-2" attributes="0"/>
                                           <EmptySpace max="32767" attributes="0"/>
@@ -2078,20 +2144,30 @@
                                           <Component id="btnthem" min="-2" pref="88" max="-2" attributes="0"/>
                                           <EmptySpace pref="291" max="32767" attributes="0"/>
 =======
+=======
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
                                           <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                                           <Component id="jLabel32" min="-2" max="-2" attributes="0"/>
                                       </Group>
                                       <Group type="102" alignment="1" attributes="0">
                                           <Component id="jButton4" min="-2" pref="88" max="-2" attributes="0"/>
                                           <EmptySpace max="32767" attributes="0"/>
+<<<<<<< HEAD
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
+=======
 >>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
                                           <Component id="jLabel30" min="-2" max="-2" attributes="0"/>
                                       </Group>
                                       <Group type="102" alignment="0" attributes="0">
                                           <Group type="103" groupAlignment="1" max="-2" attributes="0">
 <<<<<<< HEAD
+<<<<<<< HEAD
                                               <Component id="btnnew" alignment="0" pref="88" max="32767" attributes="0"/>
                                               <Component id="btnxoa" max="32767" attributes="0"/>
+=======
+                                              <Component id="jButton7" alignment="0" pref="88" max="32767" attributes="0"/>
+                                              <Component id="jButton5" alignment="0" max="32767" attributes="0"/>
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
 =======
                                               <Component id="jButton7" alignment="0" pref="88" max="32767" attributes="0"/>
                                               <Component id="jButton5" alignment="0" max="32767" attributes="0"/>
@@ -2114,7 +2190,11 @@
                                       <Component id="jScrollPane15" pref="380" max="32767" attributes="0"/>
                                       <Component id="jScrollPane14" pref="380" max="32767" attributes="0"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
                                       <Component id="cbotrangthai" alignment="0" max="32767" attributes="0"/>
+=======
+                                      <Component id="jComboBox6" alignment="0" max="32767" attributes="0"/>
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
 =======
                                       <Component id="jComboBox6" alignment="0" max="32767" attributes="0"/>
 >>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
@@ -2123,6 +2203,7 @@
                               <Group type="102" alignment="0" attributes="0">
                                   <EmptySpace min="-2" pref="67" max="-2" attributes="0"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
                                   <Component id="rdonamNV" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace min="-2" pref="49" max="-2" attributes="0"/>
                                   <Component id="rdonuNV" min="-2" max="-2" attributes="0"/>
@@ -2130,12 +2211,17 @@
                           </Group>
                           <EmptySpace pref="20" max="32767" attributes="0"/>
 =======
+=======
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
                                   <Component id="jRadioButton4" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace min="-2" pref="49" max="-2" attributes="0"/>
                                   <Component id="jRadioButton5" min="-2" max="-2" attributes="0"/>
                               </Group>
                           </Group>
                           <EmptySpace max="32767" attributes="0"/>
+<<<<<<< HEAD
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
+=======
 >>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
                       </Group>
                   </Group>
@@ -2150,7 +2236,11 @@
                               <Component id="jScrollPane5" min="-2" max="-2" attributes="0"/>
                               <Component id="jScrollPane6" min="-2" max="-2" attributes="0"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
                               <Component id="btnthem" min="-2" max="-2" attributes="0"/>
+=======
+                              <Component id="jButton4" min="-2" max="-2" attributes="0"/>
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
 =======
                               <Component id="jButton4" min="-2" max="-2" attributes="0"/>
 >>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
@@ -2169,17 +2259,23 @@
                               </Group>
                               <Group type="102" alignment="0" attributes="0">
 <<<<<<< HEAD
+<<<<<<< HEAD
                                   <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
                                   <Component id="btnxoa" min="-2" max="-2" attributes="0"/>
                               </Group>
                           </Group>
                           <EmptySpace pref="25" max="32767" attributes="0"/>
 =======
+=======
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
                                   <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
                                   <Component id="jButton5" min="-2" max="-2" attributes="0"/>
                               </Group>
                           </Group>
                           <EmptySpace pref="13" max="32767" attributes="0"/>
+<<<<<<< HEAD
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
+=======
 >>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
@@ -2188,10 +2284,14 @@
                                       <Component id="jScrollPane12" alignment="1" min="-2" max="-2" attributes="0"/>
                                       <Component id="jScrollPane15" min="-2" max="-2" attributes="0"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
                                       <Group type="103" alignment="0" groupAlignment="3" attributes="0">
                                           <Component id="jLabel32" alignment="3" min="-2" max="-2" attributes="0"/>
                                           <Component id="btnsua" alignment="3" min="-2" max="-2" attributes="0"/>
                                       </Group>
+=======
+                                      <Component id="jLabel32" alignment="0" min="-2" max="-2" attributes="0"/>
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
 =======
                                       <Component id="jLabel32" alignment="0" min="-2" max="-2" attributes="0"/>
 >>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
@@ -2202,8 +2302,13 @@
                                           <Group type="103" groupAlignment="3" attributes="0">
                                               <Component id="jLabel33" alignment="3" min="-2" max="-2" attributes="0"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
                                               <Component id="rdonamNV" alignment="3" min="-2" max="-2" attributes="0"/>
                                               <Component id="rdonuNV" alignment="3" min="-2" max="-2" attributes="0"/>
+=======
+                                              <Component id="jRadioButton4" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jRadioButton5" alignment="3" min="-2" max="-2" attributes="0"/>
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
 =======
                                               <Component id="jRadioButton4" alignment="3" min="-2" max="-2" attributes="0"/>
                                               <Component id="jRadioButton5" alignment="3" min="-2" max="-2" attributes="0"/>
@@ -2217,17 +2322,23 @@
                                                   <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
                                                   <Group type="103" groupAlignment="0" attributes="0">
 <<<<<<< HEAD
+<<<<<<< HEAD
                                                       <Component id="cbovaitro" min="-2" max="-2" attributes="0"/>
                                                       <Component id="jLabel24" min="-2" max="-2" attributes="0"/>
                                                   </Group>
                                               </Group>
                                               <Component id="btnnew" alignment="0" min="-2" max="-2" attributes="0"/>
 =======
+=======
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
                                                       <Component id="jComboBox5" min="-2" max="-2" attributes="0"/>
                                                       <Component id="jLabel24" min="-2" max="-2" attributes="0"/>
                                                   </Group>
                                               </Group>
                                               <Component id="jButton7" alignment="0" min="-2" max="-2" attributes="0"/>
+<<<<<<< HEAD
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
+=======
 >>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
                                           </Group>
                                           <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
@@ -2235,7 +2346,11 @@
                                   </Group>
                                   <Group type="103" groupAlignment="1" attributes="0">
 <<<<<<< HEAD
+<<<<<<< HEAD
                                       <Component id="cbotrangthai" min="-2" max="-2" attributes="0"/>
+=======
+                                      <Component id="jComboBox6" min="-2" max="-2" attributes="0"/>
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
 =======
                                       <Component id="jComboBox6" min="-2" max="-2" attributes="0"/>
 >>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
@@ -2311,7 +2426,11 @@
                   <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
                   <SubComponents>
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <Component class="javax.swing.JTextPane" name="txtmanv">
+=======
+                    <Component class="javax.swing.JTextPane" name="jTextPane2">
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
 =======
                     <Component class="javax.swing.JTextPane" name="jTextPane2">
 >>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
@@ -2326,7 +2445,11 @@
                   <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
                   <SubComponents>
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <Component class="javax.swing.JTextPane" name="txttennv">
+=======
+                    <Component class="javax.swing.JTextPane" name="jTextPane7">
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
 =======
                     <Component class="javax.swing.JTextPane" name="jTextPane7">
 >>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
@@ -2341,7 +2464,11 @@
                   <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
                   <SubComponents>
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <Component class="javax.swing.JTextPane" name="txtmatkhau">
+=======
+                    <Component class="javax.swing.JTextPane" name="jTextPane8">
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
 =======
                     <Component class="javax.swing.JTextPane" name="jTextPane8">
 >>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
@@ -2356,17 +2483,23 @@
                   <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
                   <SubComponents>
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <Component class="javax.swing.JTextPane" name="txtdiachiNV">
                     </Component>
                   </SubComponents>
                 </Container>
                 <Component class="javax.swing.JComboBox" name="cbovaitro">
 =======
+=======
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
                     <Component class="javax.swing.JTextPane" name="jTextPane23">
                     </Component>
                   </SubComponents>
                 </Container>
                 <Component class="javax.swing.JComboBox" name="jComboBox5">
+<<<<<<< HEAD
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
+=======
 >>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
                   <Properties>
                     <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
@@ -2389,7 +2522,11 @@
                   <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
                   <SubComponents>
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <Component class="javax.swing.JTextPane" name="txtsdtNV">
+=======
+                    <Component class="javax.swing.JTextPane" name="jTextPane3">
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
 =======
                     <Component class="javax.swing.JTextPane" name="jTextPane3">
 >>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
@@ -2404,7 +2541,11 @@
                   <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
                   <SubComponents>
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <Component class="javax.swing.JTextPane" name="txtngaysinh">
+=======
+                    <Component class="javax.swing.JTextPane" name="jTextPane24">
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
 =======
                     <Component class="javax.swing.JTextPane" name="jTextPane24">
 >>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
@@ -2419,17 +2560,23 @@
                   <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
                   <SubComponents>
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <Component class="javax.swing.JTextPane" name="txtemaiNV">
                     </Component>
                   </SubComponents>
                 </Container>
                 <Component class="javax.swing.JComboBox" name="cbotrangthai">
 =======
+=======
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
                     <Component class="javax.swing.JTextPane" name="jTextPane25">
                     </Component>
                   </SubComponents>
                 </Container>
                 <Component class="javax.swing.JComboBox" name="jComboBox6">
+<<<<<<< HEAD
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
+=======
 >>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
                   <Properties>
                     <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
@@ -2445,7 +2592,11 @@
                   </AuxValues>
                 </Component>
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <Component class="javax.swing.JButton" name="btnthem">
+=======
+                <Component class="javax.swing.JButton" name="jButton4">
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
 =======
                 <Component class="javax.swing.JButton" name="jButton4">
 >>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
@@ -2454,7 +2605,11 @@
                   </Properties>
                 </Component>
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <Component class="javax.swing.JButton" name="btnsua">
+=======
+                <Component class="javax.swing.JButton" name="jButton5">
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
 =======
                 <Component class="javax.swing.JButton" name="jButton5">
 >>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
@@ -2462,6 +2617,7 @@
                     <Property name="text" type="java.lang.String" value="S&#x1eed;a"/>
                   </Properties>
                 </Component>
+<<<<<<< HEAD
 <<<<<<< HEAD
                 <Component class="javax.swing.JButton" name="btnnew">
                   <Properties>
@@ -2473,19 +2629,28 @@
                 </Component>
                 <Component class="javax.swing.JRadioButton" name="rdonamNV">
 =======
+=======
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
                 <Component class="javax.swing.JButton" name="jButton7">
                   <Properties>
                     <Property name="text" type="java.lang.String" value="L&#xe0;m m&#x1edb;i"/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JRadioButton" name="jRadioButton4">
+<<<<<<< HEAD
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
+=======
 >>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
                   <Properties>
                     <Property name="text" type="java.lang.String" value="Nam"/>
                   </Properties>
                 </Component>
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <Component class="javax.swing.JRadioButton" name="rdonuNV">
+=======
+                <Component class="javax.swing.JRadioButton" name="jRadioButton5">
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
 =======
                 <Component class="javax.swing.JRadioButton" name="jRadioButton5">
 >>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
@@ -2494,11 +2659,14 @@
                   </Properties>
                 </Component>
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <Component class="javax.swing.JButton" name="btnxoa">
                   <Properties>
                     <Property name="text" type="java.lang.String" value="X&#xf3;a"/>
                   </Properties>
                 </Component>
+=======
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
 =======
 >>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
               </SubComponents>
@@ -2699,13 +2867,19 @@
                       <Component id="jPanel6" min="-2" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
                       <Component id="jScrollPane41" pref="644" max="32767" attributes="0"/>
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
                       <Component id="jScrollPane41" pref="619" max="32767" attributes="0"/>
 =======
                       <Component id="jScrollPane41" pref="644" max="32767" attributes="0"/>
 >>>>>>> 2bd35f9b9e1dce29758662f81a11d01d205709e0
+<<<<<<< HEAD
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
+=======
 >>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
                   </Group>
               </Group>
@@ -3384,7 +3558,11 @@
                                   <Component id="jPanel18" min="-2" max="-2" attributes="0"/>
                               </Group>
 <<<<<<< HEAD
+<<<<<<< HEAD
                               <EmptySpace pref="87" max="32767" attributes="0"/>
+=======
+                              <EmptySpace pref="89" max="32767" attributes="0"/>
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
 =======
                               <EmptySpace pref="89" max="32767" attributes="0"/>
 >>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999

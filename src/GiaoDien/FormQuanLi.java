@@ -4,15 +4,25 @@
  */
 package GiaoDien;
 
+<<<<<<< HEAD
 
 import DAO.ThongKeDAO;
+=======
+<<<<<<< HEAD
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
 
 import DAO.sanphamDAO;
 import Utils.MsgBox;
 import entity.sanpham;
+<<<<<<< HEAD
 
 import DAO.ThongKeDAO;
 
+=======
+=======
+import DAO.ThongKeDAO;
+>>>>>>> 2bd35f9b9e1dce29758662f81a11d01d205709e0
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
 import java.util.List;
 import javax.swing.table.DefaultTableModel;
 import java.sql.ResultSet;
@@ -58,7 +68,11 @@ public class FormQuanLi extends javax.swing.JFrame {
         jPanel5 = new javax.swing.JPanel();
         jScrollPane2 = new javax.swing.JScrollPane();
 <<<<<<< HEAD
+<<<<<<< HEAD
         jTable2 = new javax.swing.JTable();
+=======
+        tblgiohang = new javax.swing.JTable();
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
 =======
         tblgiohang = new javax.swing.JTable();
 >>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
@@ -68,6 +82,7 @@ public class FormQuanLi extends javax.swing.JFrame {
         jPanel7 = new javax.swing.JPanel();
         jScrollPane3 = new javax.swing.JScrollPane();
 <<<<<<< HEAD
+<<<<<<< HEAD
         jTable3 = new javax.swing.JTable();
         jLabel5 = new javax.swing.JLabel();
         jLabel6 = new javax.swing.JLabel();
@@ -76,11 +91,16 @@ public class FormQuanLi extends javax.swing.JFrame {
         jScrollPane4 = new javax.swing.JScrollPane();
         jTextPane1 = new javax.swing.JTextPane();
 =======
+=======
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
         tblbanhang = new javax.swing.JTable();
         jLabel5 = new javax.swing.JLabel();
         jButton3 = new javax.swing.JButton();
         btntimkiem = new javax.swing.JButton();
         txttimkiem = new javax.swing.JTextField();
+<<<<<<< HEAD
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
+=======
 >>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
         jPanel8 = new javax.swing.JPanel();
         jLabel10 = new javax.swing.JLabel();
@@ -200,6 +220,7 @@ public class FormQuanLi extends javax.swing.JFrame {
         jLabel34 = new javax.swing.JLabel();
         jScrollPane5 = new javax.swing.JScrollPane();
 <<<<<<< HEAD
+<<<<<<< HEAD
         txtmanv = new javax.swing.JTextPane();
         jScrollPane11 = new javax.swing.JScrollPane();
         txttennv = new javax.swing.JTextPane();
@@ -222,6 +243,8 @@ public class FormQuanLi extends javax.swing.JFrame {
         rdonuNV = new javax.swing.JRadioButton();
         btnxoa = new javax.swing.JButton();
 =======
+=======
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
         jTextPane2 = new javax.swing.JTextPane();
         jScrollPane11 = new javax.swing.JScrollPane();
         jTextPane7 = new javax.swing.JTextPane();
@@ -242,6 +265,9 @@ public class FormQuanLi extends javax.swing.JFrame {
         jButton7 = new javax.swing.JButton();
         jRadioButton4 = new javax.swing.JRadioButton();
         jRadioButton5 = new javax.swing.JRadioButton();
+<<<<<<< HEAD
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
+=======
 >>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
         jScrollPane1 = new javax.swing.JScrollPane();
         jTable1 = new javax.swing.JTable();
@@ -461,7 +487,11 @@ public class FormQuanLi extends javax.swing.JFrame {
         jPanel5.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         jTable2.setModel(new javax.swing.table.DefaultTableModel(
+=======
+        tblgiohang.setModel(new javax.swing.table.DefaultTableModel(
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
 =======
         tblgiohang.setModel(new javax.swing.table.DefaultTableModel(
 >>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
@@ -478,7 +508,11 @@ public class FormQuanLi extends javax.swing.JFrame {
             }
         ));
 <<<<<<< HEAD
+<<<<<<< HEAD
         jScrollPane2.setViewportView(jTable2);
+=======
+        jScrollPane2.setViewportView(tblgiohang);
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
 =======
         jScrollPane2.setViewportView(tblgiohang);
 >>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
@@ -521,7 +555,11 @@ public class FormQuanLi extends javax.swing.JFrame {
         jPanel7.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         jTable3.setModel(new javax.swing.table.DefaultTableModel(
+=======
+        tblbanhang.setModel(new javax.swing.table.DefaultTableModel(
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
 =======
         tblbanhang.setModel(new javax.swing.table.DefaultTableModel(
 >>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
@@ -540,6 +578,7 @@ public class FormQuanLi extends javax.swing.JFrame {
             }
         ));
 <<<<<<< HEAD
+<<<<<<< HEAD
         jScrollPane3.setViewportView(jTable3);
 
         jLabel5.setText("Tìm kiếm sản phẩm:");
@@ -552,6 +591,8 @@ public class FormQuanLi extends javax.swing.JFrame {
 
         jScrollPane4.setViewportView(jTextPane1);
 =======
+=======
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
         jScrollPane3.setViewportView(tblbanhang);
 
         jLabel5.setText("Tìm kiếm sản phẩm:");
@@ -569,6 +610,9 @@ public class FormQuanLi extends javax.swing.JFrame {
                 btntimkiemActionPerformed(evt);
             }
         });
+<<<<<<< HEAD
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
+=======
 >>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
 
         javax.swing.GroupLayout jPanel7Layout = new javax.swing.GroupLayout(jPanel7);
@@ -578,7 +622,11 @@ public class FormQuanLi extends javax.swing.JFrame {
             .addGroup(jPanel7Layout.createSequentialGroup()
                 .addContainerGap()
 <<<<<<< HEAD
+<<<<<<< HEAD
                 .addComponent(jScrollPane3)
+=======
+                .addComponent(jScrollPane3, javax.swing.GroupLayout.DEFAULT_SIZE, 826, Short.MAX_VALUE)
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
 =======
                 .addComponent(jScrollPane3, javax.swing.GroupLayout.DEFAULT_SIZE, 826, Short.MAX_VALUE)
 >>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
@@ -586,6 +634,7 @@ public class FormQuanLi extends javax.swing.JFrame {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel7Layout.createSequentialGroup()
                 .addGap(29, 29, 29)
                 .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+<<<<<<< HEAD
 <<<<<<< HEAD
                     .addGroup(jPanel7Layout.createSequentialGroup()
                         .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 202, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -598,6 +647,8 @@ public class FormQuanLi extends javax.swing.JFrame {
                     .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, 163, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(79, 79, 79))
 =======
+=======
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
                     .addComponent(jLabel5)
                     .addGroup(jPanel7Layout.createSequentialGroup()
                         .addComponent(txttimkiem, javax.swing.GroupLayout.PREFERRED_SIZE, 242, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -608,12 +659,16 @@ public class FormQuanLi extends javax.swing.JFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 138, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(24, 24, 24))
+<<<<<<< HEAD
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
+=======
 >>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
         );
         jPanel7Layout.setVerticalGroup(
             jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel7Layout.createSequentialGroup()
                 .addGap(20, 20, 20)
+<<<<<<< HEAD
 <<<<<<< HEAD
                 .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel5)
@@ -630,6 +685,8 @@ public class FormQuanLi extends javax.swing.JFrame {
                 .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 359, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(85, Short.MAX_VALUE))
 =======
+=======
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
                 .addComponent(jLabel5)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
@@ -644,6 +701,9 @@ public class FormQuanLi extends javax.swing.JFrame {
 =======
                 .addContainerGap(85, Short.MAX_VALUE))
 >>>>>>> 2bd35f9b9e1dce29758662f81a11d01d205709e0
+<<<<<<< HEAD
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
+=======
 >>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
         );
 
@@ -764,7 +824,11 @@ public class FormQuanLi extends javax.swing.JFrame {
                     .addComponent(jLabel2)
                     .addComponent(jPanel7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
 <<<<<<< HEAD
+<<<<<<< HEAD
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 187, Short.MAX_VALUE)
+=======
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 234, Short.MAX_VALUE)
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
 =======
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 234, Short.MAX_VALUE)
 >>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
@@ -968,13 +1032,19 @@ public class FormQuanLi extends javax.swing.JFrame {
                 .addComponent(jPanel25, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(51, 51, 51)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 .addComponent(jScrollPane19, javax.swing.GroupLayout.DEFAULT_SIZE, 642, Short.MAX_VALUE)
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
                 .addComponent(jScrollPane19, javax.swing.GroupLayout.DEFAULT_SIZE, 610, Short.MAX_VALUE)
 =======
                 .addComponent(jScrollPane19, javax.swing.GroupLayout.DEFAULT_SIZE, 642, Short.MAX_VALUE)
 >>>>>>> 2bd35f9b9e1dce29758662f81a11d01d205709e0
+<<<<<<< HEAD
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
+=======
 >>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
                 .addContainerGap())
         );
@@ -1188,13 +1258,19 @@ public class FormQuanLi extends javax.swing.JFrame {
                 .addComponent(jPanel28, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 .addComponent(jScrollPane26, javax.swing.GroupLayout.DEFAULT_SIZE, 476, Short.MAX_VALUE)
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
                 .addComponent(jScrollPane26, javax.swing.GroupLayout.DEFAULT_SIZE, 453, Short.MAX_VALUE)
 =======
                 .addComponent(jScrollPane26, javax.swing.GroupLayout.DEFAULT_SIZE, 476, Short.MAX_VALUE)
 >>>>>>> 2bd35f9b9e1dce29758662f81a11d01d205709e0
+<<<<<<< HEAD
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
+=======
 >>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
                 .addContainerGap())
         );
@@ -1434,13 +1510,19 @@ public class FormQuanLi extends javax.swing.JFrame {
                         .addGap(40, 40, 40)
                         .addComponent(jButton20)))
 <<<<<<< HEAD
+<<<<<<< HEAD
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 134, Short.MAX_VALUE)
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 106, Short.MAX_VALUE)
 =======
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 134, Short.MAX_VALUE)
 >>>>>>> 2bd35f9b9e1dce29758662f81a11d01d205709e0
+<<<<<<< HEAD
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
+=======
 >>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
                 .addComponent(jLabel61)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
@@ -1472,6 +1554,7 @@ public class FormQuanLi extends javax.swing.JFrame {
 
         jLabel34.setText("Trạng thái:");
 
+<<<<<<< HEAD
 <<<<<<< HEAD
         jScrollPane5.setViewportView(txtmanv);
 
@@ -1508,6 +1591,8 @@ public class FormQuanLi extends javax.swing.JFrame {
 
         btnxoa.setText("Xóa");
 =======
+=======
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
         jScrollPane5.setViewportView(jTextPane2);
 
         jScrollPane11.setViewportView(jTextPane7);
@@ -1535,6 +1620,9 @@ public class FormQuanLi extends javax.swing.JFrame {
         jRadioButton4.setText("Nam");
 
         jRadioButton5.setText("Nữ");
+<<<<<<< HEAD
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
+=======
 >>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
 
         javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
@@ -1563,6 +1651,7 @@ public class FormQuanLi extends javax.swing.JFrame {
                                 .addComponent(jScrollPane12, javax.swing.GroupLayout.PREFERRED_SIZE, 330, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addComponent(jScrollPane11, javax.swing.GroupLayout.PREFERRED_SIZE, 330, javax.swing.GroupLayout.PREFERRED_SIZE))
 <<<<<<< HEAD
+<<<<<<< HEAD
                             .addComponent(cbovaitro, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 330, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addGap(76, 76, 76)
                         .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1579,6 +1668,8 @@ public class FormQuanLi extends javax.swing.JFrame {
                                     .addComponent(btnnew, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 88, Short.MAX_VALUE)
                                     .addComponent(btnxoa, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
 =======
+=======
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
                             .addComponent(jComboBox5, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 330, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addGap(76, 76, 76)
                         .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1593,6 +1684,9 @@ public class FormQuanLi extends javax.swing.JFrame {
                                 .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
                                     .addComponent(jButton7, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 88, Short.MAX_VALUE)
                                     .addComponent(jButton5, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+<<<<<<< HEAD
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
+=======
 >>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                 .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1606,6 +1700,7 @@ public class FormQuanLi extends javax.swing.JFrame {
                             .addComponent(jScrollPane15, javax.swing.GroupLayout.DEFAULT_SIZE, 380, Short.MAX_VALUE)
                             .addComponent(jScrollPane14, javax.swing.GroupLayout.DEFAULT_SIZE, 380, Short.MAX_VALUE)
 <<<<<<< HEAD
+<<<<<<< HEAD
                             .addComponent(cbotrangthai, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
                     .addGroup(jPanel4Layout.createSequentialGroup()
                         .addGap(67, 67, 67)
@@ -1614,6 +1709,8 @@ public class FormQuanLi extends javax.swing.JFrame {
                         .addComponent(rdonuNV)))
                 .addContainerGap(20, Short.MAX_VALUE))
 =======
+=======
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
                             .addComponent(jComboBox6, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
                     .addGroup(jPanel4Layout.createSequentialGroup()
                         .addGap(67, 67, 67)
@@ -1621,6 +1718,9 @@ public class FormQuanLi extends javax.swing.JFrame {
                         .addGap(49, 49, 49)
                         .addComponent(jRadioButton5)))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+<<<<<<< HEAD
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
+=======
 >>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
         );
         jPanel4Layout.setVerticalGroup(
@@ -1633,7 +1733,11 @@ public class FormQuanLi extends javax.swing.JFrame {
                     .addComponent(jScrollPane5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jScrollPane6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
 <<<<<<< HEAD
+<<<<<<< HEAD
                     .addComponent(btnthem))
+=======
+                    .addComponent(jButton4))
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
 =======
                     .addComponent(jButton4))
 >>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
@@ -1648,9 +1752,15 @@ public class FormQuanLi extends javax.swing.JFrame {
                             .addComponent(jScrollPane14, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                     .addGroup(jPanel4Layout.createSequentialGroup()
 <<<<<<< HEAD
+<<<<<<< HEAD
                         .addGap(13, 13, 13)
                         .addComponent(btnxoa)))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 25, Short.MAX_VALUE)
+=======
+                        .addGap(42, 42, 42)
+                        .addComponent(jButton5)))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 13, Short.MAX_VALUE)
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
 =======
                         .addGap(42, 42, 42)
                         .addComponent(jButton5)))
@@ -1663,9 +1773,13 @@ public class FormQuanLi extends javax.swing.JFrame {
                             .addComponent(jScrollPane12, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jScrollPane15, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
 <<<<<<< HEAD
+<<<<<<< HEAD
                             .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                                 .addComponent(jLabel32)
                                 .addComponent(btnsua)))
+=======
+                            .addComponent(jLabel32, javax.swing.GroupLayout.Alignment.LEADING))
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
 =======
                             .addComponent(jLabel32, javax.swing.GroupLayout.Alignment.LEADING))
 >>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
@@ -1675,8 +1789,13 @@ public class FormQuanLi extends javax.swing.JFrame {
                                 .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                                     .addComponent(jLabel33)
 <<<<<<< HEAD
+<<<<<<< HEAD
                                     .addComponent(rdonamNV)
                                     .addComponent(rdonuNV))
+=======
+                                    .addComponent(jRadioButton4)
+                                    .addComponent(jRadioButton5))
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
 =======
                                     .addComponent(jRadioButton4)
                                     .addComponent(jRadioButton5))
@@ -1688,6 +1807,7 @@ public class FormQuanLi extends javax.swing.JFrame {
                                         .addGap(21, 21, 21)
                                         .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
 <<<<<<< HEAD
+<<<<<<< HEAD
                                             .addComponent(cbovaitro, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                                             .addComponent(jLabel24)))
                                     .addComponent(btnnew))
@@ -1695,12 +1815,17 @@ public class FormQuanLi extends javax.swing.JFrame {
                         .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                             .addComponent(cbotrangthai, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
 =======
+=======
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
                                             .addComponent(jComboBox5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                                             .addComponent(jLabel24)))
                                     .addComponent(jButton7))
                                 .addGap(30, 30, 30)))
                         .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                             .addComponent(jComboBox6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+<<<<<<< HEAD
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
+=======
 >>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
                             .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                 .addComponent(jScrollPane13, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -1816,13 +1941,19 @@ public class FormQuanLi extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jPanel4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 101, Short.MAX_VALUE)
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 66, Short.MAX_VALUE)
 =======
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 101, Short.MAX_VALUE)
 >>>>>>> 2bd35f9b9e1dce29758662f81a11d01d205709e0
+<<<<<<< HEAD
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
+=======
 >>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
                 .addGroup(lblnhanvienLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jPanel9, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -2023,13 +2154,19 @@ public class FormQuanLi extends javax.swing.JFrame {
                 .addComponent(jPanel6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(39, 39, 39)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 .addComponent(jScrollPane41, javax.swing.GroupLayout.DEFAULT_SIZE, 644, Short.MAX_VALUE))
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
                 .addComponent(jScrollPane41, javax.swing.GroupLayout.DEFAULT_SIZE, 619, Short.MAX_VALUE))
 =======
                 .addComponent(jScrollPane41, javax.swing.GroupLayout.DEFAULT_SIZE, 644, Short.MAX_VALUE))
 >>>>>>> 2bd35f9b9e1dce29758662f81a11d01d205709e0
+<<<<<<< HEAD
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
+=======
 >>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
         );
 
@@ -2301,7 +2438,11 @@ public class FormQuanLi extends javax.swing.JFrame {
                     .addComponent(jPanel17, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jPanel18, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
 <<<<<<< HEAD
+<<<<<<< HEAD
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 87, Short.MAX_VALUE)
+=======
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 89, Short.MAX_VALUE)
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
 =======
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 89, Short.MAX_VALUE)
 >>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
@@ -2451,6 +2592,7 @@ public class FormQuanLi extends javax.swing.JFrame {
     }//GEN-LAST:event_cboNamActionPerformed
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     private void btnnewActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnnewActionPerformed
         // TODO add your handling code here:
         txtmanv.setText("");
@@ -2464,6 +2606,8 @@ public class FormQuanLi extends javax.swing.JFrame {
         rdonuNV.setSelected(false);
     }//GEN-LAST:event_btnnewActionPerformed
 
+=======
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
     private void btntimkiemActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btntimkiemActionPerformed
         this.timKiem();
     }//GEN-LAST:event_btntimkiemActionPerformed
@@ -2472,7 +2616,10 @@ public class FormQuanLi extends javax.swing.JFrame {
         this.filltablegh();
     }//GEN-LAST:event_jButton3ActionPerformed
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
     /**
      * @param args the command line arguments
      */
@@ -2515,6 +2662,7 @@ public class FormQuanLi extends javax.swing.JFrame {
     private javax.swing.JButton btnkhachhang;
     private javax.swing.JButton btnkhuyenmai;
 <<<<<<< HEAD
+<<<<<<< HEAD
     private javax.swing.JButton btnnew;
     private javax.swing.JButton btnnhanvien;
     private javax.swing.JButton btnsanpham;
@@ -2527,12 +2675,17 @@ public class FormQuanLi extends javax.swing.JFrame {
     private javax.swing.JComboBox<String> cbotrangthai;
     private javax.swing.JComboBox<String> cbovaitro;
 =======
+=======
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
     private javax.swing.JButton btnnhanvien;
     private javax.swing.JButton btnsanpham;
     private javax.swing.JButton btnthongke;
     private javax.swing.JButton btntimkiem;
     private javax.swing.JComboBox<String> cboDanhmuc;
     private javax.swing.JComboBox<String> cboNam;
+<<<<<<< HEAD
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
+=======
 >>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton10;
@@ -2550,6 +2703,7 @@ public class FormQuanLi extends javax.swing.JFrame {
     private javax.swing.JButton jButton21;
     private javax.swing.JButton jButton3;
 <<<<<<< HEAD
+<<<<<<< HEAD
     private javax.swing.JButton jButton6;
     private javax.swing.JButton jButton8;
     private javax.swing.JButton jButton9;
@@ -2557,6 +2711,8 @@ public class FormQuanLi extends javax.swing.JFrame {
     private javax.swing.JComboBox<String> jComboBox10;
     private javax.swing.JComboBox<String> jComboBox2;
 =======
+=======
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
     private javax.swing.JButton jButton4;
     private javax.swing.JButton jButton5;
     private javax.swing.JButton jButton6;
@@ -2567,6 +2723,9 @@ public class FormQuanLi extends javax.swing.JFrame {
     private javax.swing.JComboBox<String> jComboBox2;
     private javax.swing.JComboBox<String> jComboBox5;
     private javax.swing.JComboBox<String> jComboBox6;
+<<<<<<< HEAD
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
+=======
 >>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
     private javax.swing.JComboBox<String> jComboBox7;
     private javax.swing.JComboBox<String> jComboBox8;
@@ -2625,7 +2784,10 @@ public class FormQuanLi extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel58;
     private javax.swing.JLabel jLabel59;
 <<<<<<< HEAD
+<<<<<<< HEAD
     private javax.swing.JLabel jLabel6;
+=======
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
 =======
 >>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
     private javax.swing.JLabel jLabel60;
@@ -2677,6 +2839,11 @@ public class FormQuanLi extends javax.swing.JFrame {
     private javax.swing.JRadioButton jRadioButton2;
     private javax.swing.JRadioButton jRadioButton3;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    private javax.swing.JRadioButton jRadioButton4;
+    private javax.swing.JRadioButton jRadioButton5;
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
 =======
     private javax.swing.JRadioButton jRadioButton4;
     private javax.swing.JRadioButton jRadioButton5;
@@ -2715,7 +2882,10 @@ public class FormQuanLi extends javax.swing.JFrame {
     private javax.swing.JScrollPane jScrollPane38;
     private javax.swing.JScrollPane jScrollPane39;
 <<<<<<< HEAD
+<<<<<<< HEAD
     private javax.swing.JScrollPane jScrollPane4;
+=======
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
 =======
 >>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
     private javax.swing.JScrollPane jScrollPane40;
@@ -2731,6 +2901,7 @@ public class FormQuanLi extends javax.swing.JFrame {
     private javax.swing.JTable jTable10;
     private javax.swing.JTable jTable11;
 <<<<<<< HEAD
+<<<<<<< HEAD
     private javax.swing.JTable jTable2;
     private javax.swing.JTable jTable3;
     private javax.swing.JTable jTable8;
@@ -2738,6 +2909,8 @@ public class FormQuanLi extends javax.swing.JFrame {
     private javax.swing.JTextPane jTextPane1;
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
     private javax.swing.JTable jTable5;
 =======
     private javax.swing.JTable jTable2;
@@ -2745,6 +2918,9 @@ public class FormQuanLi extends javax.swing.JFrame {
 >>>>>>> 2bd35f9b9e1dce29758662f81a11d01d205709e0
     private javax.swing.JTable jTable8;
     private javax.swing.JTable jTable9;
+<<<<<<< HEAD
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
+=======
 >>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
     private javax.swing.JTextPane jTextPane10;
     private javax.swing.JTextPane jTextPane11;
@@ -2757,6 +2933,7 @@ public class FormQuanLi extends javax.swing.JFrame {
     private javax.swing.JTextPane jTextPane18;
     private javax.swing.JTextPane jTextPane19;
 <<<<<<< HEAD
+<<<<<<< HEAD
     private javax.swing.JTextPane jTextPane20;
     private javax.swing.JTextPane jTextPane21;
     private javax.swing.JTextPane jTextPane22;
@@ -2765,6 +2942,8 @@ public class FormQuanLi extends javax.swing.JFrame {
     private javax.swing.JTextPane jTextPane5;
     private javax.swing.JTextPane jTextPane6;
 =======
+=======
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
     private javax.swing.JTextPane jTextPane2;
     private javax.swing.JTextPane jTextPane20;
     private javax.swing.JTextPane jTextPane21;
@@ -2779,6 +2958,9 @@ public class FormQuanLi extends javax.swing.JFrame {
     private javax.swing.JTextPane jTextPane6;
     private javax.swing.JTextPane jTextPane7;
     private javax.swing.JTextPane jTextPane8;
+<<<<<<< HEAD
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
+=======
 >>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
     private javax.swing.JTextPane jTextPane9;
     private javax.swing.JLabel lblDoanhthu;
@@ -2792,6 +2974,7 @@ public class FormQuanLi extends javax.swing.JFrame {
     private javax.swing.JPanel lblsanpham;
     private javax.swing.JPanel lblthongke;
     private javax.swing.JRadioButton rdonam;
+<<<<<<< HEAD
 <<<<<<< HEAD
     private javax.swing.JRadioButton rdonamNV;
     private javax.swing.JRadioButton rdonu;
@@ -2814,13 +2997,19 @@ public class FormQuanLi extends javax.swing.JFrame {
 
     ThongKeDAO dao = new ThongKeDAO();
 =======
+=======
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
     private javax.swing.JRadioButton rdonu;
     private javax.swing.JTable tblThongke;
 <<<<<<< HEAD
     private javax.swing.JTable tblbanhang;
     private javax.swing.JTable tblgiohang;
     private javax.swing.JTextField txttimkiem;
+<<<<<<< HEAD
     // End of variables declaration                   
+=======
+    // End of variables declaration//GEN-END:variables
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
    
     
     int row=-1;
@@ -2836,6 +3025,9 @@ public class FormQuanLi extends javax.swing.JFrame {
 
     ThongKeDAO dao = new ThongKeDAO();
 >>>>>>> 2bd35f9b9e1dce29758662f81a11d01d205709e0
+<<<<<<< HEAD
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
+=======
 >>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
 
     void fillThongKe() {
@@ -2871,7 +3063,10 @@ public class FormQuanLi extends javax.swing.JFrame {
     private void init() {
         this.setSize(1920, 1080);
         this.setLocationRelativeTo(null);
+<<<<<<< HEAD
 
+=======
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
         this.filltablebh();
     }
     
@@ -2920,6 +3115,9 @@ public class FormQuanLi extends javax.swing.JFrame {
         } catch (Exception e) {
             MsgBox.alert(this, "Lỗi truy vấn dữ liệu!");
         }
+<<<<<<< HEAD
 //>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
+=======
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
     }
 }

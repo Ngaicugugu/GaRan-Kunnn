@@ -7,11 +7,15 @@
 =======
         <group>
 <<<<<<< HEAD
+<<<<<<< HEAD
             <file>file:/D:/SOF102/GaRan-Kunnn/src/Utils/XDate.java</file>
             <file>file:/D:/SOF102/GaRan-Kunnn/src/Utils/Auth.java</file>
             <file>file:/D:/SOF102/GaRan-Kunnn/src/Utils/MsgBox.java</file>
             <file>file:/D:/SOF102/GaRan-Kunnn/src/Utils/jdbchelper.java</file>
             <file>file:/D:/SOF102/GaRan-Kunnn/src/GiaoDien/FormQuanLi.java</file>
+=======
+            <file>file:/D:/Github/GaRan-Kunnn/src/GiaoDien/FormQuanLi.java</file>
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
 =======
             <file>file:/D:/Github/GaRan-Kunnn/src/GiaoDien/FormQuanLi.java</file>
 >>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999

@@ -20,10 +20,14 @@ public class Auth {
         return Auth.user != null;
     }
     public static boolean isManager(){
+<<<<<<< HEAD
 //<<<<<<< HEAD
         return Auth.isLogin()&& user.isVaitro();
 //=======
 //        return Auth.isLogin() && user.isVaitro();
 //>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
+=======
+        return Auth.isLogin() && user.isVaitro();
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
     }
 }

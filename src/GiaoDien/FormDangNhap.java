@@ -4,6 +4,7 @@
  */
 package GiaoDien;
 
+<<<<<<< HEAD
 //<<<<<<< HEAD
 
 import DAO.usersDAO;
@@ -11,6 +12,8 @@ import Utils.Auth;
 import Utils.MsgBox;
 import entity.users;
 //=======
+=======
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
 import DAO.usersDAO;
 import Utils.Auth;
 import Utils.MsgBox;
@@ -18,7 +21,10 @@ import Utils.jdbchelper;
 import entity.users;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
+<<<<<<< HEAD
 //>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
+=======
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
 
 /**
  *
@@ -26,10 +32,13 @@ import java.sql.ResultSet;
  */
 public class FormDangNhap extends javax.swing.JFrame {
 
+<<<<<<< HEAD
 //<<<<<<< HEAD
 
 //=======
 //>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
+=======
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
     public FormDangNhap() {
         initComponents();
         init();
@@ -178,6 +187,7 @@ public class FormDangNhap extends javax.swing.JFrame {
     private javax.swing.JPasswordField txtpass;
     private javax.swing.JTextField txttaikhoan;
     // End of variables declaration//GEN-END:variables
+<<<<<<< HEAD
 //<<<<<<< HEAD
     
     usersDAO dao=new usersDAO();
@@ -213,6 +223,26 @@ public class FormDangNhap extends javax.swing.JFrame {
 //        }
 
 //>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
+=======
+
+    usersDAO dao = new usersDAO();
+
+    private void Login() {
+        String manv = txttaikhoan.getText();
+        String matkhau = new String(txtpass.getPassword());
+        users us = dao.selectByid(manv);
+        if (us == null) {
+            MsgBox.alert(this, "Sai tên đăng nhập!");
+        } else if (!matkhau.equals(us.getMatkhau())) {
+            MsgBox.alert(this, "Sai mật khẩu!");
+        } else {
+            Auth.user = us;
+            this.dispose();
+            FormQuanLi frmql = new FormQuanLi();
+            frmql.setVisible(true);
+        }
+
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
     }
 
     private void init() {
