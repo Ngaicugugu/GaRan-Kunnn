@@ -2,12 +2,20 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+<<<<<<< HEAD
+        <group/>
+=======
         <group>
-            <file>file:/C:/Users/akbro/Desktop/GaRan-Kunnn/src/GiaoDien/NhanVien.java</file>
-            <file>file:/C:/Users/akbro/Desktop/GaRan-Kunnn/nbproject/build-impl.xml</file>
-            <file>file:/C:/Users/akbro/Desktop/GaRan-Kunnn/src/GiaoDien/QuanLi.java</file>
-            <file>file:/C:/Users/akbro/Desktop/GaRan-Kunnn/src/GiaoDien/FormDangNhap.java</file>
-            <file>file:/C:/Users/akbro/Desktop/GaRan-Kunnn/src/Hinh/Voucher.png</file>
+<<<<<<< HEAD
+            <file>file:/D:/SOF102/GaRan-Kunnn/src/Utils/XDate.java</file>
+            <file>file:/D:/SOF102/GaRan-Kunnn/src/Utils/Auth.java</file>
+            <file>file:/D:/SOF102/GaRan-Kunnn/src/Utils/MsgBox.java</file>
+            <file>file:/D:/SOF102/GaRan-Kunnn/src/Utils/jdbchelper.java</file>
+            <file>file:/D:/SOF102/GaRan-Kunnn/src/GiaoDien/FormQuanLi.java</file>
+=======
+            <file>file:/D:/Github/GaRan-Kunnn/src/GiaoDien/FormQuanLi.java</file>
+>>>>>>> 52f02550b31efef30be7f4fecc60ef69537ff999
         </group>
+>>>>>>> 2bd35f9b9e1dce29758662f81a11d01d205709e0
     </open-files>
 </project-private>
